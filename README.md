@@ -7,24 +7,22 @@
 
 # Running The Application
 
-To test the example application run the following commands.
+* To run tests: 
 
-* To run the tests run
+        gradle test
 
-`gradle test`
-
-* To package the example run.
+* To package:
 
         gradle shadowJar
 
-* To drop an existing h2 database run.
+* To drop an existing h2 database:
 
         gradle dropAll
 
-* To setup the h2 database run.
+* To setup the h2 database:
 
         gradle migrate
 
-* To run the server run.
+* To run the application:
 
         gradle run
